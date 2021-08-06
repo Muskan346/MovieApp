@@ -1,0 +1,46 @@
+
+.header-wrapper{
+    display: flex;
+    justify-content:space-around;
+    flex:1;
+
+}
+
+.body-container{
+    background: radial-gradient(#00000030 , #000000), url('../assets/backgorund.jpg');
+
+}
+
+.header {
+    background: linear-gradient(to bottom , black , black);
+
+}
+
+
+.btn {
+    background: #099fe5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 7px 17px;
+    text-align: center;
+    text-decoration: none !important;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    float: left;
+}
+
+.btn:hover {
+    color: white;
+
+}
+p  {
+    color: #999999 !important;
+}
+.footer a {
+    color: #099fe5 !important;
+}
+a:hover{
+    text-decoration: none;
+}
